@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+.navBar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 30px;
+   padding: 10px;
+   background-color: #1d337d;
+   color: white;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a.mainTitle {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  width: 100%;
+  text-align: left;
+}
+
+.nav-img {
+    height: 25px;
+    width: 25px;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerImg {
+   
+    width: 1000px;
+    height: auto;
+    
+}
+
+.centered {
+    position: absolute;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    align-items: center;
+   
+  }
+
+  h1 {
+    font-size: 40px;
+    border-bottom: 2px solid gray;
+  }
+  
+
+  h2 {
+    text-decoration: underline;
+    color: green;
+  }
+
+  .content {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+
+  /* Booking Page Style*/
+  #bookTripHeader {
+    font-family: Arial;
+    color: black
+    text-decoration: none;
+  }
+
+  #thankYouTitle {
+    font-family: Arial;
+    padding:10px;
+  }
+
+  #submitButton {
+    background-color:grey;
+    color: white;
+  }
+
+  /* The side navigation menu */
+.sidenav {
+    height: 100%; 
+    width: 0px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #1d337d;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: grey;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+ /* Booking Page Styles */
+ hr {
+  background-color: grey;
+  width: 100%;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media only screen and (max-width: 1000px) {
+    main {
+      width: 100%;
+    }
+
+    h1{
+      font-size: 30px;
+    }
+
+    .bannerImg {
+        width: 100%;
+    }
+
+    .content {
+      width:100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+
+  @media screen and (max-height: 576px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    
+    .sidenav a {
+      font-size: 18px;
+    }
+    
+    h1 {
+      font-size: smaller;
+      text-align: center;
+      border-bottom: 1px solid gray;
+    }
+  }
+
+  
+
